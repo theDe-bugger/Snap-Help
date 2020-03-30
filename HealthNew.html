@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Hospital (copy)</title>
+    <script src="Health.js"></script>
+    <link rel="stylesheet" href="assets3/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="assets3/css/Features-Boxed.css">
+    <link rel="stylesheet" href="assets3/css/Header-Blue.css">
+    <link rel="stylesheet" href="assets3/css/Header-Dark.css">
+    <link rel="stylesheet" href="assets3/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets3/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="assets3/css/styles.css">
+</head>
+
+<body style="background-color: #2d283e;color: #d1d7e0;background-image: url(&quot;assets3/img/bg.png&quot;);">
+    <div>
+        <nav class="navbar navbar-dark navbar-expand-lg navigation-clean-search">
+            <div class="container"><img style="width: 10;height: 10;" src="assets3/img/box.png" width="100" height="100"><a class="navbar-brand" style="color: #d1d7e0;" href="index.html">Snap Help</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item" role="presentation"></li>
+                    </ul>
+                    <form class="form-inline mr-auto" target="_self">
+                        <div class="form-group"><label for="search-field"></label></div>
+                    </form><span class="navbar-text"></span>
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="me.html" style="color: #d1d7e0;">Me</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="groceries.html" style="color: #d1d7e0;">Groceries</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="HospitalNew.html" style="color: #d1d7e0;">Health</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="HealthNew.html" style="color: #d1d7e0;">Hospital</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="help.html" style="color: #d1d7e0;">Help</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="https://www.reddit.com/r/dankmemes/" style="color: #d1d7e0;">Memes</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="register-photo" style="background-color: rgba(241,247,252,0);">
+        <div class="form-container" style="color: #6f7a85;">
+            <div class="text-center image-holder" style="filter: saturate(100%);background-image: url(&quot;assets3/img/photo-1560582861-45078880e48e.jpg&quot;);"></div>
+            <form method="post" style="background-color: #564f6f;color: #505e6c;">
+                <h2 class="text-center" style="color: #dfe7f1;">Request Hospital&nbsp;Database Access</h2>
+                <div class="form-group"><input class="form-control" type="text" id="docName" placeholder="Name" name="name" required=""></div>
+                <div class="form-group"><input class="form-control" type="text" id="docNum" placeholder="Employee #" name="employeeNo" required=""></div>
+                <div class="form-group"><input class="form-control" type="text" id="hospName" placeholder="Hospital Name" name="hospitalName" required=""></div>
+                <div class="form-group"><input class="form-control" type="text" id="hospCity" placeholder="Hospital City" name="hospitalCity" required=""></div>
+                <p class="text-center" style="color: #dfe7f1;">Image of Work ID:</p>
+                <div class="form-group"><input type="file" id="idCard" style="color: #dfe7f1;" accept="image/*" required=""></div>
+                <div class="form-group"><button class="btn btn-primary btn-block" type="button" style="background-color: #802bb1;color: #dfe7f1;"onclick="submission()">Submit for Review</button></div>
+                <div class="form-group text-center"><a class="text-center" href="https://docs.google.com/spreadsheets/d/1_PNLPxrX6yDo5gk9isiup7JBQgAuf2GqzwX15_T1CiM/edit?usp=sharing" style="color: #dfe7f1;">Click Here to View our Current Database</a></div>
+            </form>
+        </div>
+    </div>
+    <script src="assets3/js/jquery.min.js"></script>
+    <script src="assets3/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

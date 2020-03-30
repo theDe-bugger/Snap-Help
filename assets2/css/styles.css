@@ -1,0 +1,13 @@
+input[type=file] {
+    background-color: #2d283e;
+    color: white;
+    padding: 0px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 13.85%;
+  }
+
+.body {
+  background-image: url(bg.png);
+}
