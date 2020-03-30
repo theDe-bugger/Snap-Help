@@ -18,7 +18,7 @@ function searchgrocery(){
 		x = i.toString()
 		possibilities[i] = document.getElementById(x).innerHTML;
 		if (inputsearch.toUpperCase() == possibilities[i].toUpperCase()){
-			location.href = "https://mahtabmann2003.github.io/Snap-Help/groceries.html#" + x
+			location.href = "https://samassareymuriyil.github.io/Snap-Help/groceries.html#" + x
 		} 
 	}
 }
