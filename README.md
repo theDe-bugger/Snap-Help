@@ -55,3 +55,7 @@ This project is not fully complete, but we can later improve it as we become mor
 > Coming together is a beginning, staying together is progress, and working together is success. - Henry Ford
 
 Overall, we are all still very proud of what we have managed to accomplish in this short amount of time. This project has allowed us all to learn new things and collaborate together. It also allowed us to work together on a project, bringing us together at a time where we would normally be sitting at home wasting our time. With an ongoing crisis, we have put forth our efforts to ease the minds of the public through this extremely convenient web app.
+
+### Links
+Devpost Submission: https://devpost.com/software/snap-help
+
