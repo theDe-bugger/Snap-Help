@@ -58,4 +58,4 @@ Overall, we are all still very proud of what we have managed to accomplish in th
 
 ### Links
 Devpost Submission: https://devpost.com/software/snap-help
-
+Check the website out: https://thede-bugger.github.io/Snap-Help/
